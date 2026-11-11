@@ -204,7 +204,7 @@ footer{padding:26px 0 10px;font-size:12px;color:var(--mu)}footer a{color:var(--m
 <script>["wa1","wa2","wa3"].forEach(i=>{const e=document.getElementById(i);if(e)e.href="https://max.ru/:share?text="+encodeURIComponent("Здравствуйте, Руслан! Посмотрел гид инвестора на сайте. Подберите, пожалуйста, варианты и расчёт дохода.")})</script>
 <script>
 /* MAX: ссылка на профиль Руслана (max.ru/u/...). Пока пусто — открывается экран «Поделиться» в MAX с готовым текстом. */
-var ND_MAX_U="";
+var ND_MAX_U="https://max.ru/u/f9LHodD0cOIiDreu5IjH0N-JnmMDq8831p_sPl3zWPzrg4N9VULBkvXBgyk";
 document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest('a[href^="https://max.ru/:share"]');if(!a)return;
 var t="";try{t=new URL(a.href).searchParams.get("text")||""}catch(_){}
 try{navigator.clipboard&&navigator.clipboard.writeText(t).catch(function(){})}catch(_){}
